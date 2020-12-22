@@ -6,6 +6,7 @@ background:lightblue;
 img{
   width:300px;
   text-align:center;
+  border-radius:50%;
 }
 td{
   border:black 2px solid
