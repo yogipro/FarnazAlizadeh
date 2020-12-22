@@ -3,7 +3,7 @@
 
 body{
   	background-image:url(bg_earth.jpg);
-	background-size:cover;
+	background-size:contain;
   	color:white;
   	text-align:center;
 	animation-name: fade-in;
