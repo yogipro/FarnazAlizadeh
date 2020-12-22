@@ -5,4 +5,11 @@ background:url('bg-earth.jpg')
   width:80px;
   background-color:green;
   color:white;
+  position:fixed;
+  z-index:2;
 }
+h1{
+  position:fixed;
+  z-index:2;
+}
+  
