@@ -3,8 +3,9 @@ html{
   padding:0;
 }
 body{
+  padding:4px;
   border:1px #a64dff solid;
-  background-color:yellow;
+  background-color:#999999;
   font-family: Tahoma, Verdana, sans-serif;
   line-height:1.2;
 }
