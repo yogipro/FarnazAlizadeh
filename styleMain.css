@@ -1,11 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
 body{
-  background-color:yellow;
-  color:white;
-  text-align:center;
+  	background-image:url(bg_earth.jpg);
+	``background-size:cover;
+  	color:white;
+  	text-align:center;
 }
 .index-button{
   background-color:green;
-  width:80px;
-  height:20px;
-  padding:1px;
+    width:80px;
+    height:20px;
+    padding:1px;
+    position:fixed:
+    margin:5px;
 }
