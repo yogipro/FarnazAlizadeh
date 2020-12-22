@@ -1,13 +1,13 @@
 html{
   margin:0;
   padding:0;
-  background-color:#f0f0f0;
+  background-color:red;
   font-family: Tahoma, Verdana, sans-serif;
   line-height:1.2;
 }
 img{
   width:300px;
-  border-radius:80px;
+  border-radius:150px;
   border:1px black solid;
   margin:10px auto;
   
