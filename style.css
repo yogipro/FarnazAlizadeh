@@ -10,8 +10,10 @@ img{
   margin:10px auto;
 }
 td{
-  
+  vertical-align:top;
 }
+tr{
+  marding:5px 0;
 .soft-italic{
   font-size:.5em;
   font-style:italic;
