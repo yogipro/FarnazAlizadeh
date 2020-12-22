@@ -1,9 +1,11 @@
 html{
   margin:0;
   padding:0;
-  background-color:red;
   font-family: Tahoma, Verdana, sans-serif;
   line-height:1.2;
+}
+body{
+  background-color:#c9bcbb;
 }
 img{
   width:300px;
