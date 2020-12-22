@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-  	background:url(bg_earth.jpg) no-repeat center fixed;
+  	background:url(bg_earth.png) no-repeat center fixed;
 	background-size:cover;
   	color:lemonchiffon;
 	animation-name: fade-in;
@@ -25,7 +25,8 @@ h1{
 #nav{
 	text-align: center;
 	position:fixed;
-	width:100%
+	width:100%;
+	top:20%;
 
 }
 @keyframes fade-in{
