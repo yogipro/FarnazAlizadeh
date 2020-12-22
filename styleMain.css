@@ -3,15 +3,30 @@
 
 body{
   	background-image:url(bg_earth.jpg);
-	``background-size:cover;
+	background-size:cover;
   	color:white;
   	text-align:center;
+	animation-name: fade-in;
+	animation-duration: 2s;
 }
 .index-button{
-  background-color:green;
-    width:80px;
-    height:20px;
-    padding:1px;
-    position:fixed:
-    margin:5px;
+  	background-color:green;
+  	width:20%;
+  	height:5%;
+  	padding:15px;
+	margin:10px;
+	border-radius: 10%;
+	
+}
+h1{
+	margin-bottom:100px;
+}
+#nav{
+	position:fixed;
+	left:35%;
+	top:20%;
+}
+@keyframes fade-in{
+	from{opacity: 0}
+	to{opacity: 1}
 }
