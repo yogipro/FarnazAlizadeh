@@ -1,0 +1,8 @@
+body{
+background:url('bg-earth.jpg')
+}
+.index_button{
+  width:80px;
+  background-color:green;
+  color:white;
+}
