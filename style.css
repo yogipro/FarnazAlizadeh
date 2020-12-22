@@ -7,6 +7,7 @@ img{
   width:300px;
   border-radius:50%;
   border:1px black solid;
+  margin:10px auto;
 }
 td{
   border:black 2px solid
