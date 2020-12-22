@@ -12,3 +12,7 @@ img{
 td{
   border:black 2px solid
 }
+.soft-italic{
+  font-size:.5em;
+  font-style:italic;
+}
