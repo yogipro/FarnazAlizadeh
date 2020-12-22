@@ -1,5 +1,7 @@
 body{
-background:url('bg-earth.jpg')
+  background-image:url("bg-earth.jpg");
+  animation-name:fade-in;
+  animation-duration:2s;
 }
 .index_button{
   width:80px;
@@ -11,5 +13,9 @@ background:url('bg-earth.jpg')
 h1{
   position:fixed;
   z-index:2;
+}
+@keyframes fade-in{
+  from{opacity:0}
+  to{opacity:1}
 }
   
