@@ -1,4 +1,11 @@
 body{
-  background-color:red;
+  background-color:yellow;
   color:white;
+  text-align:center;
+}
+.index-button{
+  background-color:green;
+  width:80px;
+  height:20px;
+  padding:1px;
 }
