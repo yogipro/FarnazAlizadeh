@@ -4,14 +4,13 @@ html{
 }
 body{
   padding:4px;
-  border:1px #a64dff solid;
-  background-color:#999999;
+  border:none;
+  background-color:#2323031;
   font-family: Tahoma, Verdana, sans-serif;
   line-height:1.2;
 }
 img{
   width:300px;
-  border-radius:150px;
   border:1px black solid;
   margin:10px auto;
   
