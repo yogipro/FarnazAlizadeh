@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body{
-  	background-image:url(bg_earth.jpg);
-	background-size:contain;
+  	background-image:url(bg_earth.jpg) no-repeat center fixed;
+	background-size:cover;
   	color:white;
   	text-align:center;
 	animation-name: fade-in;
