@@ -4,14 +4,14 @@
 body{
   	background:url(bg_earth.jpg) no-repeat center fixed;
 	background-size:cover;
-  	color:white;
+  	color:lemonchiffon;
 	animation-name: fade-in;
 	animation-duration: 2s;
 	font-family: Arial, Helvetica, sans-serif;
 }
 .index-button{
   	background-color:darkslategray;
-	color:white;
+	color:lemonchiffon;
   	width:20%;
   	height:5%;
   	padding:15px;
@@ -32,7 +32,7 @@ h1{
 	from{opacity: 0}
 	to{opacity: 1}
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:800px){
 	.index-button{
 		display:block;
 		width:400px;
