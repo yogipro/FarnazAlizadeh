@@ -2,18 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Farnaz Alizadeh CV</title>
+    <title>Farnaz Alizadeh</title>
     <link rel = "stylesheet" href = "styleMain.css">
+	 
   </head>
+	<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   <body>
-	<div class = "container" id = "nav">
-    		<h1>Welcome</h1>
-    		<span class = "index-button">My CV</span>
-    		<span class = "index-button">About Me</span>
-    		<span class = "index-button">Articles</span>
-	</div>
-	  <script type = "text/babel">
-		ReactDOM.render(<h1>fuck off</h1>, document.getElementById('nav'));
+	<div class = "container" id = "root">
+    	<h1 id = "wc_text">Welcome</h1>
+    	<span class = "index-button" id = "cv_button" onClick="openCV()">My CV</span>
+    	<span class = "index-button" id = "about_me_button">About Me</span>
+    	<span class = "index-button" id = "article_button" onClick="showArticle()">Article</span>
+	  </div>
+	  <script type = "text/babel" src = "articleComponent.js"></script>
+	  <script type = "text/babel" src = "homePageComponent.js"></script>
+	  <script type = "text/babel" src = "App.js">
 	  </script>
   </body>
+	
 </html>
