@@ -8,11 +8,12 @@ html{
 #home_button{
 	background-color: green;
 	padding:10px;
+	max-width: 150px;
 	
 }
 #home_button:hover{
 	cursor: pointer;
-	max-width: 150px;
+	
 }
 body{
   padding:4px;
@@ -35,10 +36,15 @@ tr{
   marding:5px 0;
 }
 .soft-italic{
-  font-size:50%;
+  font-size:1rem;
   font-style:italic;
 }
 ul{
   list-style-type:none;
+}
+@media screen and only (max-width:1200px){
+	body{
+		font-size: 2rem;
+	}
 }
 
