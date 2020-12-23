@@ -7,9 +7,9 @@
 function showArticle(){
 	var root = document.getElementById('root');
 	ReactDOM.render(<ArticleComponent/>,root)
-	root.style.top = 0;
+	/*root.style.top = 0;
 	root.style.textAlign = "left"
-	root.style.height = "auto"
+	root.style.height = "auto"*/
 	
 }
 function displayMainMenu(){
