@@ -1,26 +1,11 @@
+// JavaScript Document
 
 
-
-
-
-
-function showArticle(){
-	var root = document.getElementById('root');
-	ReactDOM.render(<ArticleComponent/>,root)
-	/*root.style.top = 0;
-	root.style.textAlign = "left"
-	root.style.height = "auto"*/
-	
+class HomePageComponent extends React.Component{
+	render(){
+		return (<div><h1 id = "welcome_text">Welcome Back</h1>
+    	<span class = "index-button" id = "cv_button" onClick= {openCV}>My CV</span>
+    	<span class = "index-button" id = "about_me_button">About Me</span>
+    	<span class = "index-button" id = "article_button" onClick = {showArticle}>Article</span></div>)
+	}
 }
-function displayMainMenu(){
-	var root = document.getElementById('root');
-	ReactDOM.render(<HomePageComponent/>,root);
-	root.style.top = "20%";
-	root.style.textAlign = "center";
-	root.style.height = "300px"
-	
-}
-function openCV(){
-	window.location = "cv.html"
-}
-
