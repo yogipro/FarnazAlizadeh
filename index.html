@@ -11,11 +11,13 @@
   	<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
   <body>
 	<div class = "container" id = "root">
-    	<h1 id = "wc_text">Welcome</h1>
-    	<span class = "index-button" id = "cv_button" onClick="openCV()">My CV</span>
-    	<span class = "index-button" id = "about_me_button">About Me</span>
-    	<span class = "index-button" id = "article_button" onClick="showArticle()">Article</span>
+		<div id = "wrapper_div">
+ 	   		<h1 id = "welcome_text">Welcome</h1>
+    		<span class = "index-button" id = "cv_button" onClick="openCV()">My CV</span>
+    		<span class = "index-button" id = "about_me_button">About Me</span>
+    		<span class = "index-button" id = "article_button" onClick="showArticle()">Article</span>
 	  </div>
+		</div>
 	  <script type = "text/babel" src = "articleComponent.js"></script>
 	  <script type = "text/babel" src = "homePageComponent.js"></script>
 	  <script type = "text/babel" src = "App.js">
