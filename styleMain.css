@@ -51,9 +51,10 @@ h1{
 	position:absolute;
 	width:99%;
 	top:20%;
-	
-	
 
+}
+#wrapper_div{
+	text-align:center:
 }
 @keyframes fade-in{
 	from{opacity: 0}
