@@ -1,6 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
 html{
   margin:0;
   padding:0;
+}
+#home_button{
+	background-color: green;
+	padding:10px;
+	
+}
+#home_button:hover{
+	cursor: pointer;
+	max-width: 150px;
 }
 body{
   padding:4px;
