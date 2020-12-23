@@ -5,17 +5,16 @@
 
 
 function showArticle(){
-	ReactDOM.render(<ArticleComponent/>,document.getElementById("root"))
 	var root = document.getElementById('root');
+	ReactDOM.render(<ArticleComponent/>,root)
 	root.style.top = 0;
 	root.style.textAlign = "left"
-	root.backgroundColor = "red";
 	root.style.height = "auto"
 	
 }
 function displayMainMenu(){
-	ReactDOM.render(<HomePageComponent/>,document.getElementById("root"));
 	var root = document.getElementById('root');
+	ReactDOM.render(<HomePageComponent/>,root);
 	root.style.top = "20%";
 	root.style.textAlign = "center";
 	root.style.height = "300px"
