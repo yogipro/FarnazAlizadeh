@@ -43,7 +43,7 @@ ul{
   list-style-type:none;
 }
 @media screen and only (max-width:1200px){
-	body{
+	.soft-italic{
 		font-size: 2rem;
 	}
 }
